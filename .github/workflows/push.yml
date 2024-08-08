@@ -20,7 +20,7 @@ jobs:
           organization: 'visionaryx'
           project: 'visionaryx'
           mountPath: '/products/api-hub/Learning API'
-          files: 'index.md learning.yaml'
+          files: 'index.md learning.yaml logo.jpg'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
